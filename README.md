@@ -1,2 +1,2 @@
 # bunnyescape
-just  a platformer prototype to understand the basics 
+just  a platformer prototype to understand the basics of unity . 
