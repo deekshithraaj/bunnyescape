@@ -1,2 +1,2 @@
 # bunnyescape
-just  aplotformer prototype
+just  a platformer prototype to understand the basics 
