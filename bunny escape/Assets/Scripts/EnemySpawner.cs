@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    // Start is called before the first frame update
-
-    //game object for creating
+    
+ 
 
     public GameObject enemy;
     public float spawnrates;
@@ -18,7 +17,7 @@ public class EnemySpawner : MonoBehaviour
         Spawnmodule();
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Playercontroller : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
 
     Rigidbody2D rb;
     float Xinput;
@@ -24,11 +24,7 @@ public class Playercontroller : MonoBehaviour
     }
 
     void Moveplayer() {
-        //a function to check the movement of the player  which consistis of two things like input
-        // and  change position
-
-        //input i will check the horizontal with respect to axis 
-        
+       
 
         Xinput = Input.GetAxis("Horizontal");// value between -1 / +1
         newposition = transform.position;
@@ -40,15 +36,6 @@ public class Playercontroller : MonoBehaviour
         
     }
 
-    //extrahealth
-    void superPower() {
-        //if score is greater than 14 then a mode which lasts for 3 secs 
-        //and enemies comes faster but u  can kill them
-       
-       /* if( )
-        {
-            print("score is greater and player has power");
-        }
-        */
-    }
+    
+    
 }
